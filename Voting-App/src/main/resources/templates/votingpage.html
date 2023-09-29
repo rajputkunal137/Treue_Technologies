@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Voting Page</title>
+</head>
+<body>
+    <h1>Voting Page</h1>
+    <form method="post" action="/vote">
+        <input type="text" name="voterName" placeholder="Your Name"><br>
+        <label><input type="radio" name="candidate" value="candidate1"> Candidate 1</label><br>
+        <label><input type="radio" name="candidate" value="candidate2"> Candidate 2</label><br>
+        <label><input type="radio" name="candidate" value="candidate3"> Candidate 3</label><br>
+        <label><input type="radio" name="candidate" value="candidate4"> Candidate 4</label><br>
+        <input type="submit" value="Vote">
+    </form>
+</body>
+</html>

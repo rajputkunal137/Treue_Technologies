@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Built-By: rajpu
+Build-Jdk: 19.0.1
+Implementation-Title: parkingsystem
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: com.accolite
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-boot
+ -starter-parent/parkingsystem
+Created-By: Maven Integration for Eclipse
+
